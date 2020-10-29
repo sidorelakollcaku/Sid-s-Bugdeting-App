@@ -36,7 +36,7 @@ passport.deserializeUser(User.deserializeUser());
 const Budget = require('./models/budget');
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/currensee-demo');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://sidorela:password1995@cluster0.bbbon.mongodb.net/SidApp?retryWrites=true&w=majority');
 
 // Start the API server
 app.listen(PORT, function() {

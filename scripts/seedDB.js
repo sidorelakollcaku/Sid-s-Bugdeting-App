@@ -4,8 +4,9 @@ const db = require("../models");
 // This file empties the Books collection and inserts the books below
 
 mongoose.connect(
-  process.env.MONGODB_URI ||
-  "mongodb://localhost/currensee-demo"
+  process.env.MONGODB_URI || 
+  'mongodb+srv://sidorela:password1995@cluster0.bbbon.mongodb.net/SidApp?retryWrites=true&w=majority'
+
 );
 
 const budgetSeed = [

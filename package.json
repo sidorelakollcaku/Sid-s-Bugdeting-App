@@ -32,6 +32,7 @@
     "jsonp": "^0.2.1",
     "material-ui-pickers": "^2.2.4",
     "moment": "^2.29.1",
+    "mongodb": "^3.6.2",
     "mongoose": "^4.13.21",
     "morgan": "^1.10.0",
     "passport": "^0.4.1",
