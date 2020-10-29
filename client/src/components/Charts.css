@@ -1,0 +1,44 @@
+.welcomeCard {
+  padding: 1rem 2rem;
+}
+
+.welcomeMsg {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.chartDrop {
+  width: 80%;
+}
+
+.dropWrapper {
+  padding: 2rem;
+}
+
+.pickerCard {
+  padding: 1.2rem;
+  /* background-color: #f50057 !important; */
+}
+
+.border-pink {
+  border-radius: 5px;
+}
+
+.chartGrid {
+  padding: 1.2rem;
+}
+
+.catChartHeader {
+  margin-top: 2rem
+}
+
+.chartHeading {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 990px) {
+  .dropWrapper {
+    padding: 1rem;
+  }
+
+}
